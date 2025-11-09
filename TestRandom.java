@@ -7,8 +7,7 @@ public  class  TestRandom {
 			double num = Math.random();
 			if (num > 0.5){
 				countBiggerThanHalf++;
-			}
-			else {
+			} else {
 				countLessOrEqualToHalf++;
 			}
 		}
@@ -16,8 +15,7 @@ public  class  TestRandom {
 		System.out.println("<= 0.5: " + countLessOrEqualToHalf + " times");
 		if (countBiggerThanHalf == 0 || countLessOrEqualToHalf == 0){
 			return;
-		}
-		else {
+		} else {
 			double ratio = (double)countBiggerThanHalf / (double)countLessOrEqualToHalf;
 			System.out.println("Ratio: " + ratio);
 		}

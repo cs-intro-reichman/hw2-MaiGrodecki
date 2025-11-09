@@ -9,8 +9,7 @@ public class Cheers {
                         int isLetter = checkLetter.indexOf(letter);
                         if(isLetter != -1){
                                 System.out.println("Give me an " + letter + ": " + letter + "!");
-                        }
-                        else {
+                        } else {
                                 System.out.println("Give me a  " + letter + ": " + letter + "!");
                         }
                 }

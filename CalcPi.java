@@ -9,11 +9,9 @@ public class CalcPi {
 			double term = numerator / denominator;
 			if (i == 0){
 				aprox = aprox + term;
-			}
-			else if (i % 2 == 0){
+			} else if (i % 2 == 0){
 			aprox = aprox + term;
-			}
-			else { aprox = aprox - term;
+			} else { aprox = aprox - term;
 			}
 			denominator+=2;
 		}
